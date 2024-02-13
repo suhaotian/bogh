@@ -45,7 +45,7 @@ export function Header() {
         <LanguageSwitcher />
         <ThemeSwitcher />
         <div>
-          <a href="https://github.com/suhaotian/batch-operations-for-gh" target="_blank">
+          <a href="https://github.com/suhaotian/bogh" target="_blank">
             <img src={iconGithub.src} alt="GitHub, Source Code" className="h-7" />
           </a>
         </div>

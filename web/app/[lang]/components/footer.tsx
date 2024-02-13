@@ -10,7 +10,7 @@ export function Footer() {
         <span>{m.more()}</span>
         <a
           className="text-blue-500"
-          href="https://github.com/suhaotian/bogh/issues"
+          href="https://github.com/suhaotian/bogh/issues/new"
           target="_blank">
           {m.feedback()}
         </a>
