@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "pnpm tailwind && next dev",
     "build": "paraglide-js compile --project ./project.inlang && next build",
-    "start": "next start",
+    "start": "pnpm tailwind && next start",
     "lint": "next lint",
-    "postinstall": "paraglide-js compile --project ./project.inlang"
+    "postinstall": "pnpm tailwind && paraglide-js compile --project ./project.inlang",
+    "tailwind": "tailwindcss -i ./app/input.css -o ./app/dist.css -c tailwind.config.js"
   },
   "dependencies": {
     "react": "^18",

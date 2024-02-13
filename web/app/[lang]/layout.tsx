@@ -8,7 +8,7 @@ import LanguageProvider from '../../components/language-provider';
 import * as m from '../../src/paraglide/messages';
 import { availableLanguageTags, languageTag } from '../../src/paraglide/runtime';
 
-import '../globals.css';
+import '../dist.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
