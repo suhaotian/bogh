@@ -2,13 +2,13 @@ import { ChakraProvider } from '@chakra-ui/react';
 import type { Metadata, ResolvingMetadata } from 'next';
 import { Inter } from 'next/font/google';
 
-import { Footer } from './[lang]/components/footer';
-import { Header } from './[lang]/components/header';
-import LanguageProvider from '../components/language-provider';
-import * as m from '../src/paraglide/messages';
-import { availableLanguageTags, languageTag } from '../src/paraglide/runtime';
+import { Footer } from './components/footer';
+import { Header } from './components/header';
+import LanguageProvider from '../../components/language-provider';
+import * as m from '../../src/paraglide/messages';
+import { availableLanguageTags, languageTag } from '../../src/paraglide/runtime';
 
-import './globals.css';
+import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 

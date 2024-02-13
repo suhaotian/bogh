@@ -3,7 +3,7 @@ import * as m from '../../../src/paraglide/messages';
 export function Footer() {
   return (
     <footer className="p-8 mt-8 ">
-      <div className="text-sm font-extralight text-slate-600 dark:text-white flex items-center  justify-center gap-4">
+      <div className="text-sm font-extralight text-slate-600 dark:text-white flex items-center  justify-center gap-4 flex-wrap">
         <a className="text-blue-500" href="https://github.com/suhaotian" target="_blank">
           © 2024 suhaotian
         </a>
