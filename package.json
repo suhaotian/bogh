@@ -1,0 +1,57 @@
+{
+  "name": "bogh",
+  "version": "1.0.0",
+  "description": "Batch operations for GitHub: batch cancel stars; and archive/delete repositories",
+  "repository": "suhaotian/bogh",
+  "bugs": "https://github.com/suhaotian/bogh/issues",
+  "homepage": "https://bulk-operations-gh.tsdk.dev",
+  "scripts": {
+    "start": "cd web && pnpm dev",
+    "test": "echo 'no tests'",
+    "prepare": "is-ci || husky"
+  },
+  "devDependencies": {
+    "husky": "^9.0.7",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4",
+    "is-ci": "^3.0.1",
+    "eslint-config-universe": "^12.0.0",
+    "@tsconfig/recommended": "^1.0.3",
+    "lfs-auto-track": "^1.1.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSameLine": true
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-universe",
+    "ignorePatterns": [
+      "node_modules"
+    ]
+  },
+  "lint-staged": {
+    "*": [
+      "lfs-auto-track 'image,video,audio:100kb;*:1024kb'"
+    ],
+    "*.{ts,tsx,mts}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{md,css,js,mjs}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "batch operations",
+    "GitHub",
+    "batch delete repos",
+    "batch cancel stars",
+    "batch cancel repos watch"
+  ],
+  "author": "suhaotian",
+  "license": "MIT",
+  "private": true
+}

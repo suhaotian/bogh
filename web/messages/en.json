@@ -1,0 +1,22 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "title": "BOGH - Batch Operations tool for GitHub",
+  "description": "Batch operations for GitHub: batch cancel star, cancel watchs; and archive/delete repositories",
+  "slogan": "Batch Operations for GitHub",
+  "access_token": "How to get {data}",
+  "next": "Next",
+  "steps": "Steps",
+  "step_1": "1. Open",
+  "step_2": "2. Add note and Generate token",
+  "more": "More:",
+  "source_code": "Source code",
+  "confirm": "Confirm",
+  "logout": "Log out?",
+  "confirm_delete": "Confirm Delete",
+  "archive_only": "Archive Only",
+  "_delete": "Delete",
+  "confirm_cancel_stars": "Confirm cancel these stars?",
+  "confirm_cancel_watchs": "Confirm cancel selected watchs?",
+  "feedback": "Feedback",
+  "switch_language": "Switch Language"
+}

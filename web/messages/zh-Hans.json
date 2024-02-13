@@ -1,0 +1,22 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "title": "BOGH - 批量删除仓库，批量取消仓库关注的 GitHub 工具",
+  "description": "GitHub 批量处理工具: 批量取消 star，批量存档，批量删除仓库",
+  "slogan": "GitHub 批量操作工具",
+  "access_token": "如何获取 {data}",
+  "next": "下一步",
+  "steps": "步骤",
+  "step_1": "1. 点击打开",
+  "step_2": "2. 添加 Note 再点击 Generate token 按钮",
+  "more": "更多：",
+  "source_code": "开源代码",
+  "confirm": "确定",
+  "logout": "退出登录?",
+  "confirm_delete": "确定删除",
+  "archive_only": "仅存档",
+  "_delete": "删除",
+  "confirm_cancel_stars": "确定删除这些收藏?",
+  "confirm_cancel_watchs": "确定删除这些关注?",
+  "feedback": "反馈",
+  "switch_language": "切换语言"
+}
